@@ -46,7 +46,7 @@ div.body-content-item {
     text-align: center;
 }
 /* Ref Class attribute in button selector not show Why??*/
-.btn-buy {
+button.btn-buy {
     width: 80px;
     height: 30px;
     color: white;
@@ -55,7 +55,6 @@ div.body-content-item {
     background-color: rgb(56, 113, 227);
 }
 
-/* not show same previos problem */
 button:hover {
     background-color: yellow;
 }
