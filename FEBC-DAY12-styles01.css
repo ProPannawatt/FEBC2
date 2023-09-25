@@ -1,0 +1,61 @@
+.header .logo {
+    text-align: center;
+    background-color: aqua;
+}
+
+.logo img {
+    width: 200px;
+    height: 200px;
+}
+
+.menu-content {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    padding: 20px;
+    background-color: gray;
+    justify-content: center;
+    color: white;
+}
+
+.body-content {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 50px;
+    padding: 50px;
+    justify-content: center;
+}
+
+.body-content-item-img img {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    background-color: white;
+    text-align: center;
+}
+
+div.body-content-item {
+    border: 1px solid grey;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 8px 50px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.body-content-item-name,
+.body-content-item-price {
+    text-align: center;
+}
+/* Ref Class attribute in button selector not show Why??*/
+.btn-buy {
+    width: 80px;
+    height: 30px;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(56, 113, 227);
+}
+
+/* not show same previos problem */
+button:hover {
+    background-color: yellow;
+}
