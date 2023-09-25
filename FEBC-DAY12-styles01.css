@@ -45,16 +45,40 @@ div.body-content-item {
 .body-content-item-price {
     text-align: center;
 }
-/* Ref Class attribute in button selector not show Why??*/
-button.btn-buy {
-    width: 80px;
-    height: 30px;
-    color: white;
-    border: none;
-    border-radius: 3px;
-    background-color: rgb(56, 113, 227);
+
+div.body-content-item-input {
+    text-align: center;
 }
 
-button:hover {
-    background-color: yellow;
+button.btn-buy {
+    width: 50px;
+    height: 30px;
+    color: white;
+    border-radius: 3px;
+    background-color: rgb(98, 155, 247);
+    border: none;
+    margin: 3px;
+}
+
+button.btn-details {
+    width: 50px;
+    height: 30px;
+    border-radius: 3px;
+    border: none;
+    margin: 3px;
+}
+
+button.btn-buy:hover {
+    background-color: rgb(74, 66, 239);
+}
+
+button.btn-details:hover {
+    background-color: rgb(120, 119, 126);
+}
+
+.footer {
+    height: 100px;
+    background-color: blue;
+    text-align: center;
+    color: white;
 }
